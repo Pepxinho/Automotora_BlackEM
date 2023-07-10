@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Black EM | Automotora</title>
+</head>
+
+<body>
+
+    <!--Cuerpo principal de la página-->
+
+    <main class="container-fluid">
+
+        <!-- Barra de navegación -->
+
+        <nav class="row navbar sticky-top navbar-expand-lg">
+
+            <div class="col container-fluid">
+                <a class="navbar-brand" href="index.html"><img class="logo-navbar"
+                        src="./img/Logos/Logo automotora final.png" alt="Logo barra de nav." width="200px"
+                        lenght="150px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="destacados.html">Destacados</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="usados_racing.html">Usados
+                                Racing</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page"
+                                href="contactenos.html">Contáctenos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!--Sección principal-->
+
+        <section class="row portada">
+            <div class="col-12">
+                <div class="row">
+                    <h4 class="col-3 d-flex justify-content-start fw-bold fs-4 text-light mt-4 ms-2">Financiamos un 100%
+                    </h4>
+                </div>
+                <div class="row d-flex justify-content-start">
+                    <h1
+                        class="col-6 title d-flex justify-content-l-center justify-content-md-end fw-bold text-light mt-5 ms-4">
+                        ENCUENTRE SU AUTO PERSONALIZADO IDEAL</h1>
+                </div>
+                <div class="row d-flex justify-content-start">
+                    <p class="col-6 d-flex justify-content-start overflow-auto text-light mt-2 ms-5"> Bienvenido a
+                        Automotora Black EM, donde podrá
+                        encontrar una
+                        amplia selección de vehículos con la mayor personalización del país, brindadóle opciones únicas
+                        y
+                        prototipos de coches que ve todos los días en la calle pero con una personalización impensada.
+                        Lo
+                        invitamos a navegar y descubrir la opción que cubra sus espectativas, en caso de no encontrar
+                        ninguna puede contactar con nostros y pedir un vehiculo a medida que lo haremos para usted.</p>
+                </div>
+                <div class="row d-flex justify-content-l-center justify-content-md-center ">
+                    <a class="col-md-2 col-sm-2 btn-portada mb-5 mt-2" href="usados_racing.html">
+                        ¿Qué Vehiculo deseas comprar?
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulario de contacto -->
+
+        <div class="container mt-5 mb-5 shadow-lg rounded formulario">
+            <h1 class="col-md-12 d-flex justify-content-md-center fw-bold mb-5 text-white">CONTACTÁNOS</h1>
+
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="Nombre" class="form-label text-white">Nombre</label>
+                    <input type="text" class="form-control" id="Nombre" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="Apellido" class="form-label text-white">Apellido</label>
+                    <input type="text" class="form-control" id="Apellido" required>
+                </div>
+
+                <div class="col-md-8">
+                    <label for="EmailInfo" class="form-label text-white">E-mail</label>
+                    <input type="email" class="form-control" id="emailInfo" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="telefono" class="form-label text-white">Telefóno</label>
+                    <input type="text" class="form-control" id="telefono" placeholder="+598 95 765 870">
+                </div>
+                <div class="col-md-12">
+                    <label for="exampleDataList" class="form-label text-white">Coloque a continuación el topic</label>
+                    <input class="form-control" list="datalistOptions" id="exampleDataList"
+                        placeholder="Seleccione la opción correcta.." required>
+                    <datalist id="datalistOptions">
+                        <option value="Armado de vehiculo">
+                        <option value="Compra de vehiculo">
+                        <option value="Consultas generales">
+                        <option value="Referencia a la automotora">
+                        <option value="Otro tipo de temario">
+                    </datalist>
+                </div>
+
+
+                <div class="col-md-12">
+                    <label for="comentarios" class="form-label text-white">Compartenos tus dudas, o envíanos tú proyecto
+                        personalizado para realizar un presupuesto.</label>
+                    <textarea class="form-control" name="caja de comentarios" id="comentarios" cols="30"
+                        rows="10"></textarea>
+                </div>
+                <div class="col-md-12 d-flex justify-content-md-end">
+                    <button type="submit" class="btn btn-danger mb-5">Enviar</button>
+                </div>
+            </form>
+
+
+        </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Pie de página -->
+
+        <footer class="row bg-light">
+            <div class="container footer-gral text-center text-md-start">
+                <div class="row text-center text-md-start">
+
+                    <div class="col-3 col-lg-3 col-xl-3 col-md-2 col-sm-1 mx auto mt-3">
+                        <a class="logo-automotora-footer" href="./index.html"><img
+                                src="../img/Logos/Logo automotora final.png" alt="logo-automotora"></a>
+
+
+
+
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 text-footer font-weight-bold text-white">Nosotros</h5>
+                        <hr class="mb-4 text-white">
+                        <p class="text-white">
+                            Empresa dedicada a la venta de vehiculos 0km y usados, ofreciendo una experiencia única con
+                            cada armado de coche que puedes encontrar en venta por nuestros servicios.
+                        </p>
+
+
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 text-footer font-weight-bold text-white">LINKS <span
+                                class="text-danger">RÁPIDOS</span></h5>
+                        <hr class="mb-4 text-white">
+                        <p>
+                            <a href="./nosotros.html" class="text-copyright text-decoration-none">Nosotros</a>
+                        </p>
+                        <p>
+                            <a href="./destacados.html" class="text-copyright text-decoration-none">Destacados</a>
+                        </p>
+                        <p>
+                            <a href="./usados_racing.html" class="text-copyright text-decoration-none">Racing</a>
+                        </p>
+                        <p>
+                            <a href="./contactenos.html" class="text-copyright text-decoration-none">Contáctenos</a>
+                        </p>
+
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 text-footer text-white">SERVICIOS</h5>
+                        <hr class="mb-4 text-white">
+                        <p>
+                            <a href="#" class="text-copyright text-decoration-none">Programación ECU</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-copyright text-decoration-none">Motores a medida</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-copyright text-decoration-none">Auto-partes</a>
+                        </p>
+                        <p>
+                            <a href="#" class="text-copyright text-decoration-none">Ayuda</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="row text-center text-md-start">
+
+                    <div class="col-6 col-sm-4 d-flex justify-content-md-start justify-content-sm-center ms-4 mb-3">
+                        <span class="social-media-buttons">
+                            <span class="social-media-button">
+                                <img alt="Instagram" src="../icon/instagram.svg" />
+                            </span>
+                            <span class="social-media-button">
+                                <img alt="Twitter" src="../icon/twitter.svg" />
+                            </span>
+                            <span class="social-media-button">
+                                <img alt="Youtube" src="../icon/youtube.svg" />
+                            </span>
+                            <span class="social-media-button">
+                                <img alt="LinkedIn" src="../icon/linkedin.svg" />
+                            </span>
+                        </span>
+                    </div>
+
+                </div>
+                <div class="row d-flex justify-content-center align-items-center">
+
+                    <hr class="col-11 text-white">
+                    <p class="d-flex justify-content-center text-white">Design and Developed by Design<a href="#"
+                            class="text-decoration-none text-copyright">Pepo</a></p>
+
+                </div>
+            </div>
+
+
+        </footer>
+    </main>
+
+
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
