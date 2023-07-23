@@ -1,4 +1,19 @@
 /* ========================   Estilos generales   ============================= */
+.btn-general, section.ventas a.btn-ventas, section.portada .btn-portada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 12px;
+  height: 35px;
+  width: 310px;
+  font-family: "RaceSport-BWPLV";
+  text-decoration: none;
+  background-color: #27374d;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -95,21 +110,7 @@ section.portada .title {
   font-size: 55px;
   text-shadow: 0.1em 0.1em 0.2em rgb(53, 53, 53);
 }
-section.portada a.btn-portada {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid white;
-  border-radius: 10px;
-  color: white;
-  font-size: 12px;
-  height: 35px;
-  width: 310px;
-  font-family: "RaceSport-BWPLV";
-  text-decoration: none;
-  background-color: #27374d;
-}
-section.portada a.btn-portada.btn-portada:hover {
+section.portada .btn-portada:hover {
   background-color: white;
   color: #27374d;
   border: 1px solid #27374d;
@@ -138,21 +139,7 @@ section.demo .video-demo-secundario {
   box-shadow: 4px 4px 14px #000;
 }
 
-section.ventas a.btn-ventas {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid white;
-  border-radius: 10px;
-  color: white;
-  font-size: 12px;
-  height: 45px;
-  width: 200px;
-  font-family: "RaceSport-BWPLV";
-  text-decoration: none;
-  background-color: #27374d;
-}
-section.ventas a.btn-ventas.btn-ventas:hover {
+section.ventas .btn-ventas:hover {
   background-color: white;
   color: #27374d;
   border: 1px solid #27374d;
