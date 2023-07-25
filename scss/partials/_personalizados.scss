@@ -8,7 +8,8 @@
     font-size: 12px;
     height: 35px;
     width: 310px;
-    font-family: 'RaceSport-BWPLV';
+    font-family: $fuente-perso;
     text-decoration: none;
-    background-color: #27374d;
+    background-color: map.get($btn-colors, "personal");
 }
+
