@@ -214,8 +214,9 @@ section.marcas {
 
 
 .formulario {
-    background: rgb(130, 130, 130);
-    background: radial-gradient(circle, rgba(130, 130, 130, 1) 0%, rgba(39, 55, 77, 1) 95%);
+    background: url(../img/Fondos/depositphotos_207249444-stock-photo-front-view-of-a-generic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .btn-formulario {
         @extend .btn-general;
@@ -259,12 +260,20 @@ section.comments-clientes {
 }
 
 section.form-comments-clientes {
-    .btn-formulario {
+    .btn-formulario-nosotros {
         @extend .btn-general;
         @include tamaños(100px, 35px);
         font-size: 13px;
     }
-
+    
+.btn-formulario-nosotros:hover{
+    background-color: white;
+        color: $bg-color-perso;
+        border: 1px solid $bg-color-perso;
+        -webkit-transform: scale(1.3);
+        transform: scale(1.1);
+        transition: all 0.3s ease-out;
+}
 }
 
 
